@@ -185,18 +185,18 @@ impl ScreenshotTool {
         let options = Options {
             fps: 60,
             excluded_targets: None,
-            excluded_windows: None,
+            //excluded_windows: None,
             show_cursor: true,
             show_highlight: false,
             output_type: scap::frame::FrameType::RGB,
             output_resolution: scap::capturer::Resolution::_720p,
-            source_rect: Some(Area {
-                origin: Point { x: 0.0, y: 0.0 },
-                size: Size {
-                    width: 2000.0,
-                    height: 1000.0,
-                },
-            }),
+            // source_rect: Some(Area {
+            //     origin: Point { x: 0.0, y: 0.0 },
+            //     size: Size {
+            //         width: 2000.0,
+            //         height: 1000.0,
+            //     },
+            // }),
             ..Default::default()
         };
 
