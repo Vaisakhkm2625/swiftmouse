@@ -47,12 +47,14 @@
             rust-analyzer
             pipewire
             alsa-lib
+            gcc
             clang
             libclang
             llvmPackages_12.libclang
             linuxHeaders
             libpcap
             stdenv.cc.libc
+            xorg.libxcb
           ];
 
           env = {
